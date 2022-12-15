@@ -1,0 +1,14 @@
+
+
+
+
+
+def numero(dato,nro_apuesta1,nro_apuesta2,fichas):
+    if dato==nro_apuesta1 or dato==nro_apuesta2:
+        premio= fichas*36
+    else:
+        premio= 0
+
+while True:
+    print("Menú")
+    

@@ -1,0 +1,59 @@
+
+'''
+#TIEMPO
+
+from random import randrange
+import time
+
+i = 0
+
+while i < 10:
+    print(i)
+    time.sleep(1)
+    i=i+1
+
+print ("La fecha de hoy es: ", time.asctime())
+
+'''
+
+##### CONSTRUYE NUMEROS ALEATORIOS
+
+##print (random.randrange(69))
+
+###COMANDO RANDOM 
+'''
+import random
+
+while True:
+    print("Menú")
+    print("1- Tirar dado")
+    print("2 - salir")
+    opcion= input(">>>  ")
+    if opcion == "1":
+        valor1 = random.randint(1,6)
+        valor2 = random.randint(1,6)
+        print("el valor de los dados es:", (valor1+valor2))
+    elif opcion == "2":
+            print(" Gracias por usar nuestro programa!")
+            break
+    else:
+            print("no existe esa opción ")
+
+    '''
+
+    ###PIEDRA PAPEL TIJERA
+
+'''
+import random
+
+while True: 
+    print ("opción 1: Tijera.   opción 2: Papel.      opción 3: Piedra")
+    op= input ("Elije tu opcion: ")
+    opciones=[1,2,3]
+    opcion_aleatoria= random.randrange(3)
+    if op==opcion_aleatoria:
+        print("Es un empate")
+    else:
+        print("Pronto sabremos...")
+''''
+

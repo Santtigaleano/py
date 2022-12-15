@@ -1,0 +1,188 @@
+#def nombre (parametros):
+#sentencias o acciones
+'''
+def hola():
+    print("hola mundo")
+
+hola()
+
+'''
+
+'''
+from audioop import mul
+
+
+def perdi():
+    print("GAME OVER")
+    print("hiciste muchos puntos, pero estas fuera")
+
+perdi()
+
+def multiplicar():
+    print(2*2)
+
+multiplicar()
+
+'''
+'''
+ganador=3
+
+def jugar():
+    for i in a range(10)
+    numero= input("Elegi un numero: ")
+    if numero==3:
+        print("has ganado el juego")
+    else:
+        print("no has acertado")
+    
+jugar()
+''' #mal
+'''
+
+ganador =3
+def jugar():
+    #rango_valores =[1,2,3,4,5]
+    contador=1
+    while contador<4:
+        sel=int(input("ingrese un valor del 1 al 5"))
+        if sel != ganador:
+            contador+1
+        if contador ==4:
+            print("game over")
+            break
+            
+        else:
+            print("GANASTE")
+            break
+
+jugar()
+
+
+while True:
+    jugar()
+    seguir_jugando=input("quiere seguir jugando (s/)")
+    if seguir_jugando=="s":
+        jugar()
+    else:
+        print("Chau, buen día")
+        break
+'''
+'''
+def imprimir_suma(a,b):
+    print("Resultado:")
+    print(a+b)
+
+imprimir_suma(7,5)
+imprimir_suma(-5,3.5)
+'''
+'''
+def sumar(a,b):
+    print("Resultado de suma valores 1 y 2:")
+    print(a+b)
+
+def restar(a,b):
+    print("Resultado de resta valores 1 y 2:")
+    print(a-b)
+
+def dividir(a,b):
+    print("Resultado de dividir valores 1 y 2:")
+    print(a/b)
+
+def multiplicar(a,b):
+    print("Resultado de multiplicar valores 1 y 2:")
+    print(a*b)
+
+valor_ingresado=int(input("Ingrese un valor 1"))
+valor_ingresado2=int(input("Ingrese un valor 2"))
+operacion= int(input("Hola. Elija que operación desea realizar: 1) Sumar 2) Restar 3) Dividir 4) Multiplicar 5) Salir"))
+
+if operacion=="1":
+        sumar(valor_ingresado, valor_ingresado2)
+elif operacion=="2":
+        restar(valor_ingresado, valor_ingresado2)
+elif operacion=="3":
+        dividir(valor_ingresado,valor_ingresado2)
+elif operacion == "4":
+        multiplicar(valor_ingresado,valor_ingresado2)
+ else
+     break
+'''
+
+
+
+
+
+'''
+sumar(valor_ingresado,valor_ingresado2)
+restar(valor_ingresado,valor_ingresado2)
+dividir(valor_ingresado,valor_ingresado2)
+multiplicar(valor_ingresado,valor_ingresado2)
+
+
+
+'''
+
+'''
+#Hallar radio esfera
+
+def volumen_esfera(radio):
+    PI=3.14
+    volumen=4/3*PI*radio**3
+    print("El volumen es : ", volumen)
+
+ingrese_radio= float(input("Ingrese el numero: "))
+volumen_esfera(ingrese_radio)
+'''
+'''
+#return devuelve si o si una variable
+
+def sumamos (numero1,numero2):
+    suma=float(numero1+numero2)
+    return suma
+    #print(suma)
+
+a=sumamos(10,5)
+print(a)
+'''
+#total=sumamos
+
+'''
+def voto(edad):
+    if edad <= 15: 
+        return"No puedes votar"
+    elif edad < 75: 
+            return "Puedes votar"
+    elif edad >=75:
+            return "No es necesario votar"  
+    else:
+        return "No"  
+       
+
+print(voto(int(input("Indique su edad"))))
+'''
+
+
+#RETORNAR MULTIPLES VALORES EN UNA FUNCION
+
+'''
+ejemplo mal
+def datos ():
+    temp=float(input("ingrese una temperatura: "))
+    humedad=float(input("Ingrese la humedad: "))
+    return temp,humedad
+datos()
+'''
+
+
+def datos2():
+    valores=[]
+    temp=float(input("Ingrese una temperatura: "))
+    hume=float(input("Ingrese la humedad: "))
+    valores.append(temp)
+    valores.append(hume)
+    return valores
+
+datos2()
+print (datos2())
+
+#valor fuera de funcion y valor dentro
