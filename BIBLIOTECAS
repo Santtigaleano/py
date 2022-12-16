@@ -34,7 +34,7 @@ while True:
         valor2 = random.randint(1,6)
         print("el valor de los dados es:", (valor1+valor2))
     elif opcion == "2":
-            print(" Gracias por usar nuestro programa!")
+            print(" Gracias por usar el programa!")
             break
     else:
             print("no existe esa opción ")
